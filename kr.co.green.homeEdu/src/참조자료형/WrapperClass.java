@@ -27,5 +27,23 @@ public class WrapperClass {
 	i1 == i2
 //	false	
 	i3 == i4
-//	true			
+//	true
+	
+//	AutoBoxing
+	Integer seven = Integer.valueOf(7);
+//	seven =>7
+	Integer seven = 7;
+//	seven => 7
+	Integer sevenAgain = 7
+//	sevenAgain => 7
+	seven == sevenAgain;
+//	true
+	Integer.MAX_VALUE;
+// 	2147483647(해당 클라스가 가지는 정수 최대값)
+	Integer.MIN_VALUE;
+//	-2147483647(해당 클라스가 가지는 정수 최소값)	
+	Integer.SIZE
+//	32
+	Integer.BYTE
+//	4
 }
