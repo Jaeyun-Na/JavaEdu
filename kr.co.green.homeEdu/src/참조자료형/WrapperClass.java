@@ -1,7 +1,7 @@
 package 참조자료형;
 
 public class WrapperClass {
-
+//jshell에서 실행
 	int i = 5;
 	
 	Integer integer = new Integer(5);
