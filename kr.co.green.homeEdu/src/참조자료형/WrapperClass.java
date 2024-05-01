@@ -46,4 +46,14 @@ public class WrapperClass {
 //	32
 	Integer.BYTE
 //	4
+	
+// LocalDate , LocalDateTime, LocalTime (기존에 없던 자바의 기능 이 3가지 클래스로 인해 날짜와 시간 다루기가 쉬워짐)
+	
+	LocalDate now = LocalDate.now();	//jshell에서 실행했을때는 바로 나오지 않음(LocalDate를 import 시켜줘야함)
+	
+//	import java.time.*(java Time에 관련한 모든 값을 가져온/jshell에서 할떄 import해줘야함)
+/*	jshell에서 실습
+	now.getYear() 연도
+	now.getDayOf() 관련 메소드 알려줌
+	getDayOfMounth(월)	getDayOfWeek(요일)	getDayOfYear(올해 1년중 몇번쨰 날인지)
 }
