@@ -2,8 +2,23 @@ package 참조자료형;
 
 public class 참조자료Test1 {
 	public int countUppercaseLetters(String str) {
-        
-    }
+		참조자료Test1 stringMagic = new 참조자료Test1();
+		int uppercaseLetters = stringMagic.countUppercaseLetters("Hello WORLd");
+		
+		if (str.length() == 0) {
+	            return 0;
+	        }
+
+	        int count = 0;
+	        for (int i = 0; i < str.length(); i++) {
+	            // 각 문자가 대문자인지 확인
+	            if (Character.isUpperCase(str.charAt(i))) {
+	                count++;
+	            }
+	        }
+
+	        return count;
+	    }
 }
 
 /*
