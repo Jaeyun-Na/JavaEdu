@@ -56,4 +56,16 @@ public class WrapperClass {
 	now.getYear() 연도
 	now.getDayOf() 관련 메소드 알려줌
 	getDayOfMounth(월)	getDayOfWeek(요일)	getDayOfYear(올해 1년중 몇번쨰 날인지)
+	
+	Wrapper: Boolean, Byte, Character, Double, Float, Integer, Long, Short
+	Primitive: boolean, byte, char, double, float, int, long, short
+	
+	Wrapper Class란?
+		기본 자료형을 참조형 자료형처럼 사용하기 위한 클래스.
+		이름에서도 알 수 있듯, wrapper 클래스는 감싸는 클래스이다.
+		그럼 무엇을 감싸는가? 에 대한 답은 기본 자료형이다.
+		즉, 기본 자료형의 값을 감싸 객체형태로 만든 것이 바로 wrapper 클래스이다.
+		wrapper 클래스의 경우 string 과 같이 불변성을 갖고 있다. 따라서 wrapper 클래스 안에 객체의 값은 변경 불가능하다.
+	
+*/	
 }
