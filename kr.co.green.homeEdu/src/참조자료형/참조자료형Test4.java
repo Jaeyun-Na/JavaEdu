@@ -5,16 +5,20 @@ public class 참조자료형Test4 {
 
         // TODO: Write your code here
 		
+		// 문장을 공백으로 분리하여 단어 배열 생성
 //        String[] word = sentence.split(" ");	//오답:변수 이름과 12줄의 for반복문의 변수 이름이 겹침
-        String[] words = sentence.split(" ");	//정답
+        String[] words = sentence.split(" ");	//수정
         
+     // 가장 긴 단어를 저장할 변수 초기화
         String longestWord = "";
         
+     // 단어 배열을 순회하며 가장 긴 단어 찾기
         for(String word : words){
             if(word.length() > longestWord.length()){
                 longestWord = word;
             }
         }
+     // 가장 긴 단어 반환
         return longestWord;
     }
 }
@@ -41,5 +45,27 @@ public String findLongestWord(String sentence)
 
 행운을 빕니다!
 
-
+정답 제공:
+    public String findLongestWord(String sentence) {
+ 
+        if (sentence.isEmpty()) {
+            return "";
+        }
+ 
+        String[] words = sentence.split(" ");
+ 
+        String longestWord = "";
+        int maxLength = 0;
+ 
+        for (String word : words) {
+ 
+            if (word.length() > maxLength) {
+                longestWord = word;
+                maxLength = word.length();
+            }
+        }
+ 		return longestWord;
+    	}
+	}
 */
+
