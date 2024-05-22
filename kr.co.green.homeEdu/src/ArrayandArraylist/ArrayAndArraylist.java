@@ -75,10 +75,47 @@ public class ArrayAndArraylist {
 		문제: 8개의 값을 갖는 배열을 생성, 모든 값을 나타내기
 		
 		풀이 - int[] marks = {1,2,3,4,5,6,7,8}
-			  marks.length
 			  for(int i = 0; i < marks.length; i++){
 			  	System.out.plintln(marks[i]);
 			  }
+		- marks.length : marks에 길이, 값을 갖고있는 수량
+		
+		240522
+		배열 초기화
+		
+		int[] marks = new int[5]
+		marks -> int[5] {0,0,0,0,0}
+		
+		double[] values = new double[5]
+		valies -> double[5] {0.0,0.0,0.0,0.0,0.0}
+		
+		boolean[] test new boolean[5]
+		test -> boolean[5] {false,false,false,false,false}
+		
+		class Person{
+			}
+		Person[] persons = new Person[5]
+		persons -> Person[5] {null,null,null,null,null}
+		
+		int[5] marks;
+			에러 발생 : 배열을 선언 할떼, 선언하는 쪽(구문의 왼쪽)에는 요소의 갯구가 올수 없다
+		
+		int[] marks = new int[];
+			에러 발생 : 배열의 규모를 알수 없기 떄문. 반듯이 배열의 사이즈를 정해줘야함
+		
+		int[] marks = new int[5];
+		marks -> int[5] {0,0,0,0,0}
+		
+		int[] marks = {1,2,3,4.0};
+			에러 발생 : 타입에 맞는 배열값만 입력 가능(int 정수타입이기 떄문에 4.0 불가)
+		
+		int[] marks = {1,2,3,4,5};
+		marks -> int[5] {1,2,3,4,5}
+		
+		system.out.println(marks);
+		 저장 경로가 나타람
+		system.out.println(Arrats.toStrong(marks));
+		 [1,2,3,4,5]
 		
 */		
 	}
