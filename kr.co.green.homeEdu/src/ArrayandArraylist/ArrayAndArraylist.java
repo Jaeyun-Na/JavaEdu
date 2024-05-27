@@ -112,10 +112,88 @@ public class ArrayAndArraylist {
 		int[] marks = {1,2,3,4,5};
 		marks -> int[5] {1,2,3,4,5}
 		
-		system.out.println(marks);
-		 저장 경로가 나타람
+		for(int number:numbers){
+			system.out.println(marks);
+		} 에러 발생 --> 저장 경로가 나타람
+		
+		for(int number:numbers){
 		system.out.println(Arrats.toStrong(marks));
-		 [1,2,3,4,5]
+		}
+		output - [1,2,3,4,5]
+		
+		int[] numbers = {1,2,3,4,5};
+		
+		for(int number:numbers){
+			System.outprint(number);
+		}
+		output - 12345
+		
+		
+		240523
+		
+		향상괸 for loop문
+		배열의 콘텐츠 여러개를 한번에 바꾸기
+		배열을 정열하고 비교하기
+		
+		
+		int[] marks = {100,99,95,96,100}
+		marks -> int[5] {100,99,95,96,100}
+		
+		1번
+		for(int marks:marks){
+			System.out.println(mark);
+			}
+		output 	->  100
+					99
+					95
+					96
+					100
+		2번
+		for(int i=0; i<marks.length; i++){
+			System.out.println(marks[i]);
+			}
+		output 	->  100
+					99
+					95
+					96
+					100
+		1번과 2번 모두 배열의 콘텐츠를 구하는 매서드
+		
+		int[] array1 = {1,2,3}
+		array1 -> int[3]{1,2,3}
+		
+		int[] array2 = {1,2,3}
+		array2 -> int[3]{1,2,3}
+		
+		Arrays.equals(array1,array2)
+		-> true
+		
+		int[] array3 = {3,2,3}
+		array3 -> int[3]{3,2,3}
+		
+		Arrays.euals(array1,array3)
+		
+		-> fales
+		
+		Array.sort(array3)
+		array3
+		output -> array3 -> int[3] {2,3,3}
+		
+		*Array.sort() 란?
+		*배열의 컨텐츠를 정렬하는 메서드임
+		*따로 comparator를 지정하지 않는 다면 기본적으로 오름차순으로 정렬된다
+		*(단, comparator를 사용하려면 객체형 데이터타입으로 선언해야한다)
+		
+		문제
+		Student student = new Student(name. list of marks);
+		int number = student.getNumberOfMarks();
+		int sum = student.getTotalSumOfMarks();
+		int maximumMark = student.getMaximumMark();
+		int minimumMark = student.getMinimumMark();
+		BigDecimal average = student.getAverageMarks();
+		
+		풀이
+		@introduction-to-array-and-arraylist 프로젝트
 		
 */		
 	}
