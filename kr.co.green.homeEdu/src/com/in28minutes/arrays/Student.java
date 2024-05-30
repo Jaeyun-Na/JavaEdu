@@ -10,9 +10,9 @@ public class Student {
 		this.marks = marks;
 	}
 
-	public int getNumberOfMArks() {
-		
-		return 0;
+	public int getNumberOfMarks() {
+		// TODO Auto-generated method stub
+		return marks.length;
 	}
 
 }
