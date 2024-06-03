@@ -13,9 +13,14 @@ public class studentRunner {
  */
 
 	public static void main(String[] args) {
+		
 		int [] marks = {97,98,100};
+		String name = "Kim";
 		
 		Student student = new Student("Kim",marks);
+		Student student1 = new Student("Kim",new int[] {97,98,100});
+		Student student2 = new Student("Lee",new int[] {97,98});
+		Student student3 = new Student("Choi",new int[] {97,98,100,99});
 		
 		int number = student.getNumberOfMarks();
 		System.out.println("number of marks : " + number);
