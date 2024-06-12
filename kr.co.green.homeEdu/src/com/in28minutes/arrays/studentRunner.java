@@ -36,6 +36,10 @@ public class studentRunner {
 		
 		BigDecimal average = student.getAverageMarks();
 		System.out.println("average is : " + average);
+		
+		//student.addNewMark(35);
+		
+		//student.removeMarkAtIndex(5);
 	}
 
 }

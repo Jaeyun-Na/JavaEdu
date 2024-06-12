@@ -40,6 +40,23 @@ public class 가변인수 {
 	 * jshell> person person ==> Person[5] { null, Person@6a41eaa2, null, null, null
 	 * }
 	 * 
+	 * ========================================================================================
+	 * 240612
+	 * 
+	 * 배열 만들기
+	 * jshell> int[] mark = {12,34,45} 
+	 * mark ==> int[3] { 12, 34, 45 } 
+	 * 
+	 * 배열에 자리 추가
+	 * jshell> int[] newMarks = new int[mark.length+1]
+	 * newMarks ==> int[4] { 0, 0, 0, 0 }
+	 *
+	 * 배열에 자리 삭제
+	 * jshell> int[] newMarksWithOneDeleted = new int[mark.length-1]
+	 * newMarksWithOneDeleted ==> int[2] { 0, 0 }
+	 * 
+	 * 기존의 배열을 만들었다면 자리를 추가하거나, 삭제 하는 방법은 없음.
+	 * 기존 배열을 베이스로 새로운 배열을 만들어야함.
 	 * 
 	 * 
 	 * 
