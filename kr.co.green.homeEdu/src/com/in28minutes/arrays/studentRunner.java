@@ -21,7 +21,7 @@ public class studentRunner {
 		Student student1 = new Student("Kim",new int[] {97,98,100});
 		Student student2 = new Student("Lee",new int[] {97,98});
 		Student student3 = new Student("Choi",new int[] {97,98,100,99});
-		
+		 
 		int number = student.getNumberOfMarks();
 		System.out.println("number of marks : " + number);
 		
@@ -37,6 +37,7 @@ public class studentRunner {
 		BigDecimal average = student.getAverageMarks();
 		System.out.println("average is : " + average);
 		
+		System.out.println(student);
 		//student.addNewMark(35);
 		
 		//student.removeMarkAtIndex(5);

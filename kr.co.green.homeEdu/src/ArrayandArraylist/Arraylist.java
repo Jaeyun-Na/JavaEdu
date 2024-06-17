@@ -1,6 +1,6 @@
 package ArrayandArraylist;
 
-public class Arratlist {
+public class Arraylist {
 	/*
 	 * 240612
 	 * 
