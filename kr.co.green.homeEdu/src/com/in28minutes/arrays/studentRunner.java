@@ -38,9 +38,15 @@ public class studentRunner {
 		System.out.println("average is : " + average);
 		
 		System.out.println(student);
-		//student.addNewMark(35);
+////////////////////////////////////////////////////////////////////////////////////////		
+// student 클래스에서 메소드를 이용하여 인덱스에 있는 마크를 추가, 제거
+		student.addNewMark(35);
 		
-		//student.removeMarkAtIndex(5);
+		System.out.println(student);
+		
+		student.removeMarkAtIndex(1);
+
+		System.out.println(student);
 	}
 
 }

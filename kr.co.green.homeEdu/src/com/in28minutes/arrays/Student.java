@@ -89,5 +89,16 @@ public class Student {
 	
 	public String toString() {
 		return name + marks;
-	} 
+	}
+////////////////////////////////////////////////////////////////////////////////////////
+//student 클래스에서 메소드를 이용하여 인덱스에 있는 마크를 추가, 제거
+	public void addNewMark(int mark) {
+		marks.add(mark);
+	}
+
+	public void removeMarkAtIndex(int index) {
+		marks.remove(index);
+	}
+
+
 }
