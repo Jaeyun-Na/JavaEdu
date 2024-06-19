@@ -70,7 +70,7 @@ public class ArrayAndArraylist {
 		marks3
 		->	int[5]{1,2,3,4,5}
 		
-		marks2.length ->속성 메소드가 아님, 배열에서만 속성ㄹ으로 취급
+		marks2.length ->속성 메소드가 아님, 배열에서만 속성으로 취급
 		
 		문제: 8개의 값을 갖는 배열을 생성, 모든 값을 나타내기
 		
