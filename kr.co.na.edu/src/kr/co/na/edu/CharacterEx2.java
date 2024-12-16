@@ -20,7 +20,7 @@ public class CharacterEx2 {
 		//char b2 = -66;	//문자형 변수에 음수를 넣으면 오류 발생(확인 후 주석처리함) 
 		
 		System.out.println((char)a);
-		System.out.println((char)b);
+		System.out.println((char)b);	//음수값으로 에러발생한 변수를 주석 처리함으로 알수 없는 문자 처림됨
 		System.out.println(a2);
 	}
 
